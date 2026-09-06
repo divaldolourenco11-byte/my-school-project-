@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Primeghost Technology</title>
+<meta name="description" content="Get in touch with Primeghost Technology to discuss your web development, cybersecurity, or IT consulting needs.">
+<meta name="keywords" content="contact, Primeghost Technology, get a quote, IT services">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <nav class="nav-bar" aria-label="Main navigation">
+    <a href="index.html" class="logo">Prime<span>ghost</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">☰ Menu</button>
+    <ul class="nav-menu" id="primary-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="section-alt">
+    <div class="container section-head">
+      <h1>Get in Touch</h1>
+      <p>Tell us a bit about what you need and we'll get back to you within one business day.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container grid-2">
+
+      <div>
+        <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+
+        <form id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" autocomplete="name">
+            <p class="field-error" id="name-error"></p>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" autocomplete="email">
+            <p class="field-error" id="email-error"></p>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject">
+            <p class="field-error" id="subject-error"></p>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6"></textarea>
+            <p class="field-error" id="message-error"></p>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <h3>Contact Details</h3>
+        <ul>
+          <li>
+            <strong>Email</strong><br>
+            <a href="mailto:hello@primeghost.example">hello@primeghost.example</a>
+          </li>
+          <li>
+            <strong>Phone</strong><br>
+            <a href="tel:+264000000000">+264 00 000 0000</a>
+          </li>
+          <li>
+            <strong>Location</strong><br>
+            Windhoek, Namibia
+          </li>
+          <li>
+            <strong>Hours</strong><br>
+            Monday – Friday, 08:00 – 17:00
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Primeghost Technology</h4>
+        <p>IT services and web development for businesses that need technology they can rely on.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@primeghost.example">hello@primeghost.example</a></li>
+          <li><a href="tel:+264000000000">+264 00 000 0000</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span id="year"></span> Primeghost Technology. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/contact-form.js"></script>
+</body>
+</html>
